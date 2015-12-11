@@ -26,7 +26,7 @@ namespace QUANLYPHONGMACHTU
         private void button1_Click(object sender, EventArgs e)
         {
             DanhSachKhamDTO ds = new DanhSachKhamDTO();
-            ds.MaDanhSach = tbMaDanhSach.Text.ToString();
+           // ds.MaDanhSach = tbMaDanhSach.Text.ToString();
             ds.NgayLap = DateTime.Parse(tbNgayLap.Text.ToString());
 
             ws.insertDanhSachKham(ds);

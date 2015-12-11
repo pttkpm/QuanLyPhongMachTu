@@ -206,34 +206,40 @@
             // 
             // btnTraCuuBN
             // 
-            this.btnTraCuuBN.Location = new System.Drawing.Point(43, 22);
+            this.btnTraCuuBN.Image = global::QUANLYPHONGMACHTU.Properties.Resources.Find_User_32;
+            this.btnTraCuuBN.Location = new System.Drawing.Point(35, 22);
             this.btnTraCuuBN.Margin = new System.Windows.Forms.Padding(4);
             this.btnTraCuuBN.Name = "btnTraCuuBN";
-            this.btnTraCuuBN.Size = new System.Drawing.Size(145, 26);
+            this.btnTraCuuBN.Size = new System.Drawing.Size(179, 49);
             this.btnTraCuuBN.TabIndex = 4;
             this.btnTraCuuBN.Text = "Tra cứu bệnh nhân";
+            this.btnTraCuuBN.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTraCuuBN.UseVisualStyleBackColor = true;
             this.btnTraCuuBN.Click += new System.EventHandler(this.btnTraCuuBN_Click);
             // 
             // btnLapPhieuKham
             // 
-            this.btnLapPhieuKham.Location = new System.Drawing.Point(43, 55);
+            this.btnLapPhieuKham.Image = global::QUANLYPHONGMACHTU.Properties.Resources.list_add;
+            this.btnLapPhieuKham.Location = new System.Drawing.Point(35, 81);
             this.btnLapPhieuKham.Margin = new System.Windows.Forms.Padding(4);
             this.btnLapPhieuKham.Name = "btnLapPhieuKham";
-            this.btnLapPhieuKham.Size = new System.Drawing.Size(145, 26);
+            this.btnLapPhieuKham.Size = new System.Drawing.Size(179, 49);
             this.btnLapPhieuKham.TabIndex = 3;
             this.btnLapPhieuKham.Text = "Lập phiếu khám";
+            this.btnLapPhieuKham.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLapPhieuKham.UseVisualStyleBackColor = true;
             this.btnLapPhieuKham.Click += new System.EventHandler(this.btnLapPhieuKham_Click);
             // 
             // btnThayDoiSoLuongBenh
             // 
-            this.btnThayDoiSoLuongBenh.Location = new System.Drawing.Point(43, 89);
+            this.btnThayDoiSoLuongBenh.Image = global::QUANLYPHONGMACHTU.Properties.Resources.ico_thaydoi;
+            this.btnThayDoiSoLuongBenh.Location = new System.Drawing.Point(35, 138);
             this.btnThayDoiSoLuongBenh.Margin = new System.Windows.Forms.Padding(4);
             this.btnThayDoiSoLuongBenh.Name = "btnThayDoiSoLuongBenh";
-            this.btnThayDoiSoLuongBenh.Size = new System.Drawing.Size(145, 41);
+            this.btnThayDoiSoLuongBenh.Size = new System.Drawing.Size(179, 49);
             this.btnThayDoiSoLuongBenh.TabIndex = 1;
             this.btnThayDoiSoLuongBenh.Text = "Thay đổi số lượng bệnh";
+            this.btnThayDoiSoLuongBenh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThayDoiSoLuongBenh.UseVisualStyleBackColor = true;
             this.btnThayDoiSoLuongBenh.Click += new System.EventHandler(this.btnThayDoiSoLuongBenh_Click);
             // 
@@ -256,34 +262,40 @@
             // 
             // btnLapHoaDonThanhToan
             // 
-            this.btnLapHoaDonThanhToan.Location = new System.Drawing.Point(43, 22);
+            this.btnLapHoaDonThanhToan.Image = global::QUANLYPHONGMACHTU.Properties.Resources.list_add;
+            this.btnLapHoaDonThanhToan.Location = new System.Drawing.Point(30, 22);
             this.btnLapHoaDonThanhToan.Margin = new System.Windows.Forms.Padding(4);
             this.btnLapHoaDonThanhToan.Name = "btnLapHoaDonThanhToan";
-            this.btnLapHoaDonThanhToan.Size = new System.Drawing.Size(145, 47);
+            this.btnLapHoaDonThanhToan.Size = new System.Drawing.Size(179, 49);
             this.btnLapHoaDonThanhToan.TabIndex = 4;
             this.btnLapHoaDonThanhToan.Text = "Lập hóa đơn thanh toán";
+            this.btnLapHoaDonThanhToan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLapHoaDonThanhToan.UseVisualStyleBackColor = true;
             this.btnLapHoaDonThanhToan.Click += new System.EventHandler(this.btnLapHoaDonThanhToan_Click);
             // 
             // btnThayDoiTienKham
             // 
-            this.btnThayDoiTienKham.Location = new System.Drawing.Point(43, 76);
+            this.btnThayDoiTienKham.Image = global::QUANLYPHONGMACHTU.Properties.Resources.ico_thaydoi;
+            this.btnThayDoiTienKham.Location = new System.Drawing.Point(30, 81);
             this.btnThayDoiTienKham.Margin = new System.Windows.Forms.Padding(4);
             this.btnThayDoiTienKham.Name = "btnThayDoiTienKham";
-            this.btnThayDoiTienKham.Size = new System.Drawing.Size(145, 26);
+            this.btnThayDoiTienKham.Size = new System.Drawing.Size(179, 49);
             this.btnThayDoiTienKham.TabIndex = 3;
             this.btnThayDoiTienKham.Text = "Thay đổi tiền khám";
+            this.btnThayDoiTienKham.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThayDoiTienKham.UseVisualStyleBackColor = true;
             this.btnThayDoiTienKham.Click += new System.EventHandler(this.btnThayDoiTienKham_Click);
             // 
             // btnThayDoiDonGiaThuoc
             // 
-            this.btnThayDoiDonGiaThuoc.Location = new System.Drawing.Point(43, 110);
+            this.btnThayDoiDonGiaThuoc.Image = global::QUANLYPHONGMACHTU.Properties.Resources.ico_thaydoi;
+            this.btnThayDoiDonGiaThuoc.Location = new System.Drawing.Point(30, 138);
             this.btnThayDoiDonGiaThuoc.Margin = new System.Windows.Forms.Padding(4);
             this.btnThayDoiDonGiaThuoc.Name = "btnThayDoiDonGiaThuoc";
-            this.btnThayDoiDonGiaThuoc.Size = new System.Drawing.Size(145, 41);
+            this.btnThayDoiDonGiaThuoc.Size = new System.Drawing.Size(179, 49);
             this.btnThayDoiDonGiaThuoc.TabIndex = 1;
             this.btnThayDoiDonGiaThuoc.Text = "Thay đổi đơn giá thuốc";
+            this.btnThayDoiDonGiaThuoc.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThayDoiDonGiaThuoc.UseVisualStyleBackColor = true;
             this.btnThayDoiDonGiaThuoc.Click += new System.EventHandler(this.btnThayDoiDonGiaThuoc_Click);
             // 
@@ -307,45 +319,53 @@
             // 
             // btnThayDoiThongTinThuoc
             // 
-            this.btnThayDoiThongTinThuoc.Location = new System.Drawing.Point(52, 137);
+            this.btnThayDoiThongTinThuoc.Image = global::QUANLYPHONGMACHTU.Properties.Resources.ico_thaydoi;
+            this.btnThayDoiThongTinThuoc.Location = new System.Drawing.Point(28, 195);
             this.btnThayDoiThongTinThuoc.Margin = new System.Windows.Forms.Padding(4);
             this.btnThayDoiThongTinThuoc.Name = "btnThayDoiThongTinThuoc";
-            this.btnThayDoiThongTinThuoc.Size = new System.Drawing.Size(145, 39);
+            this.btnThayDoiThongTinThuoc.Size = new System.Drawing.Size(179, 49);
             this.btnThayDoiThongTinThuoc.TabIndex = 6;
             this.btnThayDoiThongTinThuoc.Text = "Thay đổi thông tin thuốc";
+            this.btnThayDoiThongTinThuoc.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThayDoiThongTinThuoc.UseVisualStyleBackColor = true;
             this.btnThayDoiThongTinThuoc.Click += new System.EventHandler(this.btnThayDoiThongTinThuoc_Click);
             // 
             // btnTraCuuThuoc
             // 
-            this.btnTraCuuThuoc.Location = new System.Drawing.Point(52, 104);
+            this.btnTraCuuThuoc.Image = global::QUANLYPHONGMACHTU.Properties.Resources.app_search;
+            this.btnTraCuuThuoc.Location = new System.Drawing.Point(28, 138);
             this.btnTraCuuThuoc.Margin = new System.Windows.Forms.Padding(4);
             this.btnTraCuuThuoc.Name = "btnTraCuuThuoc";
-            this.btnTraCuuThuoc.Size = new System.Drawing.Size(145, 26);
+            this.btnTraCuuThuoc.Size = new System.Drawing.Size(179, 49);
             this.btnTraCuuThuoc.TabIndex = 5;
             this.btnTraCuuThuoc.Text = "Tra cứu thuốc";
+            this.btnTraCuuThuoc.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTraCuuThuoc.UseVisualStyleBackColor = true;
             this.btnTraCuuThuoc.Click += new System.EventHandler(this.btnTraCuuThuoc_Click);
             // 
             // btnThemThuocMoi
             // 
-            this.btnThemThuocMoi.Location = new System.Drawing.Point(52, 22);
+            this.btnThemThuocMoi.Image = global::QUANLYPHONGMACHTU.Properties.Resources.ico_datlichkham;
+            this.btnThemThuocMoi.Location = new System.Drawing.Point(28, 22);
             this.btnThemThuocMoi.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemThuocMoi.Name = "btnThemThuocMoi";
-            this.btnThemThuocMoi.Size = new System.Drawing.Size(145, 26);
+            this.btnThemThuocMoi.Size = new System.Drawing.Size(179, 49);
             this.btnThemThuocMoi.TabIndex = 3;
             this.btnThemThuocMoi.Text = "Thêm thuốc mới";
+            this.btnThemThuocMoi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThemThuocMoi.UseVisualStyleBackColor = true;
             this.btnThemThuocMoi.Click += new System.EventHandler(this.btnThemThuocMoi_Click);
             // 
             // btnXoaThuoc
             // 
-            this.btnXoaThuoc.Location = new System.Drawing.Point(52, 60);
+            this.btnXoaThuoc.Image = global::QUANLYPHONGMACHTU.Properties.Resources.deletered;
+            this.btnXoaThuoc.Location = new System.Drawing.Point(28, 81);
             this.btnXoaThuoc.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaThuoc.Name = "btnXoaThuoc";
-            this.btnXoaThuoc.Size = new System.Drawing.Size(145, 36);
+            this.btnXoaThuoc.Size = new System.Drawing.Size(179, 49);
             this.btnXoaThuoc.TabIndex = 1;
             this.btnXoaThuoc.Text = "Xóa thuốc";
+            this.btnXoaThuoc.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnXoaThuoc.UseVisualStyleBackColor = true;
             this.btnXoaThuoc.Click += new System.EventHandler(this.btnXoaThuoc_Click);
             // 
@@ -367,22 +387,26 @@
             // 
             // btnTaoTaiKhoan
             // 
-            this.btnTaoTaiKhoan.Location = new System.Drawing.Point(43, 22);
+            this.btnTaoTaiKhoan.Image = global::QUANLYPHONGMACHTU.Properties.Resources.user_group_new;
+            this.btnTaoTaiKhoan.Location = new System.Drawing.Point(27, 22);
             this.btnTaoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.btnTaoTaiKhoan.Name = "btnTaoTaiKhoan";
-            this.btnTaoTaiKhoan.Size = new System.Drawing.Size(145, 26);
+            this.btnTaoTaiKhoan.Size = new System.Drawing.Size(160, 49);
             this.btnTaoTaiKhoan.TabIndex = 4;
             this.btnTaoTaiKhoan.Text = "Tạo tài khoản";
+            this.btnTaoTaiKhoan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTaoTaiKhoan.UseVisualStyleBackColor = true;
             // 
             // btnPhanQuyenNguoiDung
             // 
-            this.btnPhanQuyenNguoiDung.Location = new System.Drawing.Point(43, 55);
+            this.btnPhanQuyenNguoiDung.Image = global::QUANLYPHONGMACHTU.Properties.Resources.pen;
+            this.btnPhanQuyenNguoiDung.Location = new System.Drawing.Point(27, 81);
             this.btnPhanQuyenNguoiDung.Margin = new System.Windows.Forms.Padding(4);
             this.btnPhanQuyenNguoiDung.Name = "btnPhanQuyenNguoiDung";
-            this.btnPhanQuyenNguoiDung.Size = new System.Drawing.Size(145, 43);
+            this.btnPhanQuyenNguoiDung.Size = new System.Drawing.Size(160, 49);
             this.btnPhanQuyenNguoiDung.TabIndex = 3;
             this.btnPhanQuyenNguoiDung.Text = "Phân quyền người dùng";
+            this.btnPhanQuyenNguoiDung.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPhanQuyenNguoiDung.UseVisualStyleBackColor = true;
             // 
             // groupBox6
@@ -415,6 +439,7 @@
             this.btnInBaoCao.Text = "In báo cáo";
             this.btnInBaoCao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnInBaoCao.UseVisualStyleBackColor = true;
+            this.btnInBaoCao.Click += new System.EventHandler(this.btnInBaoCao_Click);
             // 
             // btnKeHoachNhapThuoc
             // 

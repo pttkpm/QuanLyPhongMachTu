@@ -20,7 +20,7 @@ namespace QUANLYPHONGMACHTU
         {
             InitializeComponent();
         }
-
+        /*
         private void btnOK_Click(object sender, EventArgs e)
         {
             BenhNhanDTO bn = new BenhNhanDTO();
@@ -36,5 +36,6 @@ namespace QUANLYPHONGMACHTU
         {
             this.Close();
         }
+         */
     }
 }

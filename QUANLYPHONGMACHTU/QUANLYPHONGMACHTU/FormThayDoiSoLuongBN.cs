@@ -17,9 +17,17 @@ namespace QUANLYPHONGMACHTU
             InitializeComponent();
         }
 
+        private void FormThayDoiSoLuongBN_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            this.Close();
+
         }
+
+       
+
     }
 }

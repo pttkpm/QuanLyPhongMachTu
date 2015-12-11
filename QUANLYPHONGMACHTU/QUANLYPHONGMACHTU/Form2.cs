@@ -130,6 +130,11 @@ namespace QUANLYPHONGMACHTU
 
         }
 
+        private void btnInBaoCao_Click(object sender, EventArgs e)
+        {
+
+        }
+
         
     }
 }

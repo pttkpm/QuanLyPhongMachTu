@@ -22,6 +22,32 @@ namespace QUANLYPHONGMACHTU
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormLapDanhSachKham_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /*
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
             this.Close();
         }
 
@@ -38,6 +64,7 @@ namespace QUANLYPHONGMACHTU
 
             
         }
+         */
 
     }
 }

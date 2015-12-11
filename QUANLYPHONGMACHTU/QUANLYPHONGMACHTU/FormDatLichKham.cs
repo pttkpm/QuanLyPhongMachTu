@@ -22,7 +22,7 @@ namespace QUANLYPHONGMACHTU
         {
             LichHenDTO lh = new LichHenDTO();
 
-            lh.MaLichHen = tbMaLichHen.Text.ToString();
+            //lh.MaLichHen = tbMaLichHen.Text.ToString();
             lh.MaBenhNhan = tbMaBenhNhan.Text.ToString();
             lh.NgayHen = DateTime.Parse(dateTimePicker1.Text.ToString());
             lh.GioKham = DateTime.Parse(tbHH.Text.ToString());
@@ -40,6 +40,11 @@ namespace QUANLYPHONGMACHTU
         {
             FormTraCuuLichKham f = new FormTraCuuLichKham();
             f.ShowDialog();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
