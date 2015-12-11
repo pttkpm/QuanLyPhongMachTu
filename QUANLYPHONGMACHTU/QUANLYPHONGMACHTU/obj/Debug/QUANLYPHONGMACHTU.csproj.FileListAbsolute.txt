@@ -29,3 +29,31 @@ C:\Users\PhanTan\Documents\Visual Studio 2013\Projects\QUANLYPHONGMACHTU\QUANLYP
 G:\hoc ki 5\pttk pm\1312335-1312614-1312514\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\bin\Debug\QUANLYPHONGMACHTU.exe.config
 G:\hoc ki 5\pttk pm\1312335-1312614-1312514\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.exe
 G:\hoc ki 5\pttk pm\1312335-1312614-1312514\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.pdb
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\bin\Debug\QUANLYPHONGMACHTU.exe.config
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.exe
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.pdb
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\bin\Debug\QUANLYPHONGMACHTU.exe
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\bin\Debug\QUANLYPHONGMACHTU.pdb
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.csprojResolveAssemblyReference.cache
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.Form1.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.Form2.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormDatLichKham.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormLapDanhSachKham.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormLapHoaDonThanhToan.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormLapPhieuKham.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormLapPhieuKhamThemThuoc.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormTaoDanhSachKham.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormThayDoiDonGiaThuoc.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormThayDoiSoLuongBenh.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormThayDoiSoLuongBN.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormThayDoiThongTinThuoc.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormThayDoiTienKham.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormThemBenhNhan.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormThemThuocMoi.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormTraCuuBN.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormTraCuuLichKham.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormTraCuuThuoc.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormXemDanhSachKham.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormXoaThuoc.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.Properties.Resources.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.csproj.GenerateResource.Cache

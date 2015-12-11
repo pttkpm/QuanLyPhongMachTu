@@ -37,6 +37,7 @@ namespace QUANLYPHONGMACHTU
         private void btnTraCuuLichKham_Click(object sender, EventArgs e)
         {
             FormTraCuuLichKham f = new FormTraCuuLichKham();
+            f.StartPosition = FormStartPosition.CenterParent;
             f.ShowDialog();
         }
 
@@ -122,6 +123,11 @@ namespace QUANLYPHONGMACHTU
         {
             FormThemBenhNhan f = new FormThemBenhNhan();
             f.ShowDialog();
+        }
+
+        private void btnXuHuongKham_Click(object sender, EventArgs e)
+        {
+
         }
 
         

@@ -372,6 +372,51 @@
   <ItemGroup>
     <None Include="Resources\ico_search.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_datlichkham.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_thaydoi.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_group_new.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app_search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie_chart.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_edit2.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

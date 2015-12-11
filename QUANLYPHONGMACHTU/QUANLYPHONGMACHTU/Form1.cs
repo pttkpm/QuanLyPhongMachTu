@@ -18,6 +18,7 @@ namespace QUANLYPHONGMACHTU
         public Form1()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnOK_Click(object sender, EventArgs e)
@@ -31,7 +32,9 @@ namespace QUANLYPHONGMACHTU
 
         private void opennewform(object obj)
         {
-           Application.Run(new Form2());
+            Form2 f = new Form2();
+            f.StartPosition = FormStartPosition.CenterScreen;
+           Application.Run(f);
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
