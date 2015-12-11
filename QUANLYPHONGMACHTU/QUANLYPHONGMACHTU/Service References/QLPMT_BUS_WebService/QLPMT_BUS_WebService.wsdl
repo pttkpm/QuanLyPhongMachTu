@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="insertLichHen">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:LichHenDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="LichHenDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaLichHen" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaBenhNhan" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NgayHen" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="GioKham" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="TenBacSi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BENHNHAN" type="tns:BenhNhanDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ExtensionDataObject" />
+      <s:complexType name="BenhNhanDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaBenhNhan" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HoTen" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DiaChi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GioiTinh" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NamSinh" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="HOADONs" type="tns:ArrayOfHoaDonDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="LICHHENs" type="tns:ArrayOfLichHenDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="PHIEUKHAMBENHs" type="tns:ArrayOfPhieuKhamBenhDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="DANHSACHKHAMs" type="tns:ArrayOfDanhSachKhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfHoaDonDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="HoaDonDTO" nillable="true" type="tns:HoaDonDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="HoaDonDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaHoaDon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaBenhNhan" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NgayKham" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="TienKham" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TienThuoc" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BENHNHAN" type="tns:BenhNhanDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfLichHenDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="LichHenDTO" nillable="true" type="tns:LichHenDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPhieuKhamBenhDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PhieuKhamBenhDTO" nillable="true" type="tns:PhieuKhamBenhDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PhieuKhamBenhDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaPhieuKhamBenh" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaBenhNhan" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NgayKhamBenh" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="TrieuChungBenh" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DuDoanLoaiBenh" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BENHNHAN" type="tns:BenhNhanDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="CHITIETPHIEUKHAMs" type="tns:ArrayOfChiTietPhieuKhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfChiTietPhieuKhamDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ChiTietPhieuKhamDTO" nillable="true" type="tns:ChiTietPhieuKhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChiTietPhieuKhamDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaPhieuKham" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaSoThuoc" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SoLuong" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PHIEUKHAMBENH" type="tns:PhieuKhamBenhDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="THUOC" type="tns:ThuocDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ThuocDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaThuoc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CachDung" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CHITIETBAOCAOSUDUNGTHUOCs" type="tns:ArrayOfChiTietBaoCaoSuDungThuocDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="CHITIETPHIEUKHAMs" type="tns:ArrayOfChiTietPhieuKhamDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="SANPHAM" type="tns:SanPhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfChiTietBaoCaoSuDungThuocDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ChiTietBaoCaoSuDungThuocDTO" nillable="true" type="tns:ChiTietBaoCaoSuDungThuocDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChiTietBaoCaoSuDungThuocDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaBCSDT" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaThuoc" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SoLanDung" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BAOCAOSUDUNGTHUOC" type="tns:BaoCaoSuDungThuocDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="THUOC" type="tns:ThuocDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BaoCaoSuDungThuocDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaBCSDT" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BAOCAO" type="tns:BaoCaoDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="CHITIETBAOCAOSUDUNGTHUOCs" type="tns:ArrayOfChiTietBaoCaoSuDungThuocDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BaoCaoDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaBaoCao" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Thang" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BAOCAODOANHTHU" type="tns:BaoCaoDoanhThuDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="BAOCAOSUDUNGTHUOC" type="tns:BaoCaoSuDungThuocDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BaoCaoDoanhThuDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaBCDT" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Ngay" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="SoLuongBenhNhan" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DoanhThu" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TyLe" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BAOCAO" type="tns:BaoCaoDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SanPhamDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaSanPham" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TenSanPham" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DonVi" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DonGia" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CHITIETNHAPXUATs" type="tns:ArrayOfChiTietNhapXuatDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="DANHMUCDONVI" type="tns:DanhMucDonViDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="DUNGCUYTE" type="tns:DungCuYTeDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="THUOC" type="tns:ThuocDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfChiTietNhapXuatDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ChiTietNhapXuatDTO" nillable="true" type="tns:ChiTietNhapXuatDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChiTietNhapXuatDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaLSNX" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaSanPham" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SoLuong" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ThanhTien" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="LICHSUNHAPXUAT" type="tns:LichSuNhapXuatDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="SANPHAM" type="tns:SanPhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="LichSuNhapXuatDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaLSNX" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Ngay" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="LoaiGiaoDich" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LoaiSanPham" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CHITIETNHAPXUATs" type="tns:ArrayOfChiTietNhapXuatDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="DANHMUCGIAODICH" type="tns:DanhMucGiaoDichDTO" />
+          <s:element minOccurs="0" maxOccurs="1" name="DANHMUCSANPHAM" type="tns:DanhMucSanPhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DanhMucGiaoDichDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaGiaoDich" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TenLoaiGiaoDich" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LICHSUNHAPXUATs" type="tns:ArrayOfLichSuNhapXuatDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfLichSuNhapXuatDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="LichSuNhapXuatDTO" nillable="true" type="tns:LichSuNhapXuatDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DanhMucSanPhamDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaLoaiSanPham" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TenLoaiSanPham" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LICHSUNHAPXUATs" type="tns:ArrayOfLichSuNhapXuatDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DanhMucDonViDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaDonVi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TenDonVi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SANPHAMs" type="tns:ArrayOfSanPhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfSanPhamDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SanPhamDTO" nillable="true" type="tns:SanPhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DungCuYTeDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaDCYT" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SANPHAM" type="tns:SanPhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfDanhSachKhamDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DanhSachKhamDTO" nillable="true" type="tns:DanhSachKhamDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DanhSachKhamDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaDanhSach" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NgayLap" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="BENHNHANs" type="tns:ArrayOfBenhNhanDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfBenhNhanDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="BenhNhanDTO" nillable="true" type="tns:BenhNhanDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="insertLichHenResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getDsLichHen">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tenBs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ngay" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDsLichHenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDsLichHenResult" type="tns:ArrayOfLichHenDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertDanhSachKham">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:DanhSachKhamDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertDanhSachKhamResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="insertBenhNhan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:BenhNhanDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertBenhNhanResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="insertChiTietDanhSachKham">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:ChiTietDanhSachKhamDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ChiTietDanhSachKhamDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ExtensionData" type="tns:ExtensionDataObject" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaDanhSachKham" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaBenhNhan" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="insertChiTietDanhSachKhamResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="insertLichHenSoapIn">
+    <wsdl:part name="parameters" element="tns:insertLichHen" />
+  </wsdl:message>
+  <wsdl:message name="insertLichHenSoapOut">
+    <wsdl:part name="parameters" element="tns:insertLichHenResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDsLichHenSoapIn">
+    <wsdl:part name="parameters" element="tns:getDsLichHen" />
+  </wsdl:message>
+  <wsdl:message name="getDsLichHenSoapOut">
+    <wsdl:part name="parameters" element="tns:getDsLichHenResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertDanhSachKhamSoapIn">
+    <wsdl:part name="parameters" element="tns:insertDanhSachKham" />
+  </wsdl:message>
+  <wsdl:message name="insertDanhSachKhamSoapOut">
+    <wsdl:part name="parameters" element="tns:insertDanhSachKhamResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertBenhNhanSoapIn">
+    <wsdl:part name="parameters" element="tns:insertBenhNhan" />
+  </wsdl:message>
+  <wsdl:message name="insertBenhNhanSoapOut">
+    <wsdl:part name="parameters" element="tns:insertBenhNhanResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertChiTietDanhSachKhamSoapIn">
+    <wsdl:part name="parameters" element="tns:insertChiTietDanhSachKham" />
+  </wsdl:message>
+  <wsdl:message name="insertChiTietDanhSachKhamSoapOut">
+    <wsdl:part name="parameters" element="tns:insertChiTietDanhSachKhamResponse" />
+  </wsdl:message>
+  <wsdl:portType name="QLPMT_BUS_WebServiceSoap">
+    <wsdl:operation name="insertLichHen">
+      <wsdl:input message="tns:insertLichHenSoapIn" />
+      <wsdl:output message="tns:insertLichHenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDsLichHen">
+      <wsdl:input message="tns:getDsLichHenSoapIn" />
+      <wsdl:output message="tns:getDsLichHenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertDanhSachKham">
+      <wsdl:input message="tns:insertDanhSachKhamSoapIn" />
+      <wsdl:output message="tns:insertDanhSachKhamSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertBenhNhan">
+      <wsdl:input message="tns:insertBenhNhanSoapIn" />
+      <wsdl:output message="tns:insertBenhNhanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertChiTietDanhSachKham">
+      <wsdl:input message="tns:insertChiTietDanhSachKhamSoapIn" />
+      <wsdl:output message="tns:insertChiTietDanhSachKhamSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="QLPMT_BUS_WebServiceSoap" type="tns:QLPMT_BUS_WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="insertLichHen">
+      <soap:operation soapAction="http://tempuri.org/insertLichHen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDsLichHen">
+      <soap:operation soapAction="http://tempuri.org/getDsLichHen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertDanhSachKham">
+      <soap:operation soapAction="http://tempuri.org/insertDanhSachKham" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertBenhNhan">
+      <soap:operation soapAction="http://tempuri.org/insertBenhNhan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertChiTietDanhSachKham">
+      <soap:operation soapAction="http://tempuri.org/insertChiTietDanhSachKham" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="QLPMT_BUS_WebServiceSoap12" type="tns:QLPMT_BUS_WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="insertLichHen">
+      <soap12:operation soapAction="http://tempuri.org/insertLichHen" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDsLichHen">
+      <soap12:operation soapAction="http://tempuri.org/getDsLichHen" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertDanhSachKham">
+      <soap12:operation soapAction="http://tempuri.org/insertDanhSachKham" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertBenhNhan">
+      <soap12:operation soapAction="http://tempuri.org/insertBenhNhan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertChiTietDanhSachKham">
+      <soap12:operation soapAction="http://tempuri.org/insertChiTietDanhSachKham" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="QLPMT_BUS_WebService">
+    <wsdl:port name="QLPMT_BUS_WebServiceSoap" binding="tns:QLPMT_BUS_WebServiceSoap">
+      <soap:address location="http://localhost:52016/QLPMT_BUS_WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="QLPMT_BUS_WebServiceSoap12" binding="tns:QLPMT_BUS_WebServiceSoap12">
+      <soap12:address location="http://localhost:52016/QLPMT_BUS_WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

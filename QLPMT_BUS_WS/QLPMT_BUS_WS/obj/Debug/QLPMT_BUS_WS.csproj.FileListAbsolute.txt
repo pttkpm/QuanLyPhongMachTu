@@ -1,0 +1,5 @@
+C:\Users\47\Desktop\QLPMT_BUS_WS\QLPMT_BUS_WS\obj\Debug\QLPMT_BUS_WS.csprojResolveAssemblyReference.cache
+C:\Users\47\Desktop\QLPMT_BUS_WS\QLPMT_BUS_WS\bin\QLPMT_BUS_WS.dll
+C:\Users\47\Desktop\QLPMT_BUS_WS\QLPMT_BUS_WS\bin\QLPMT_BUS_WS.pdb
+C:\Users\47\Desktop\QLPMT_BUS_WS\QLPMT_BUS_WS\obj\Debug\QLPMT_BUS_WS.dll
+C:\Users\47\Desktop\QLPMT_BUS_WS\QLPMT_BUS_WS\obj\Debug\QLPMT_BUS_WS.pdb
