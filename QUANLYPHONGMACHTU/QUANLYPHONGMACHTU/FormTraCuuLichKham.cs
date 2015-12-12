@@ -27,7 +27,7 @@ namespace QUANLYPHONGMACHTU
         {
             LichHenDTO[] list = ws.getDsLichHen(tbTenBacSi.Text.ToString(), tbNgay.Text.ToString());
             dataGridView1.DataSource = list;
-            //dataGridView1.Data
+            
         }
     }
 }

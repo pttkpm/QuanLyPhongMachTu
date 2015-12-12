@@ -30,7 +30,7 @@ namespace QLHS2010
 
         public void connect()
         {
-            ConnectionString = ConfigurationManager.ConnectionStrings["QUANLYHOCSINH"].ConnectionString;
+            ConnectionString = ConfigurationManager.ConnectionStrings["QLPMT"].ConnectionString;
             connection = new SqlConnection(ConnectionString);
             connection.Open();
         }

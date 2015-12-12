@@ -59,13 +59,18 @@
   <ItemGroup>
     <Content Include="QLPMT_DAL_WebService.asmx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaoCaoDAO.cs" />
+    <Compile Include="BaoCaoDoanhThuDAO.cs" />
     <Compile Include="BaoCaoDoanhThuDTO.cs" />
     <Compile Include="BaoCaoDTO.cs" />
+    <Compile Include="BaoCaoSuDungThuocDAO.cs" />
     <Compile Include="BaoCaoSuDungThuocDTO.cs" />
     <Compile Include="BenhNhanDAO.cs" />
     <Compile Include="BenhNhanDTO.cs" />
+    <Compile Include="ChiTietBaoCaoSuDungThuocDAO.cs" />
     <Compile Include="ChiTietBaoCaoSuDungThuocDTO.cs" />
     <Compile Include="ChiTietDanhSachKhamDAO.cs" />
     <Compile Include="ChiTietDanhSachKhamDTO.cs" />
@@ -92,11 +97,13 @@
     <Compile Include="SanPhamDTO.cs" />
     <Compile Include="TaiKhoanDTO.cs" />
     <Compile Include="ThuocDTO.cs" />
-    <Compile Include="TKBacSiDTO.cs" />
-    <Compile Include="TKChuPhongKhamDTO.cs" />
-    <Compile Include="TKLeTanDTO.cs" />
-    <Compile Include="TKThuKhoDTO.cs" />
-    <Compile Include="TKThuNganDTO.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">

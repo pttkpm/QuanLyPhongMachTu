@@ -20,6 +20,17 @@ namespace QUANLYPHONGMACHTU
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BenhNhanDTO bn = new BenhNhanDTO();
+            bn.HoTen = tbHoTen.Text.ToString();
+            bn.GioiTinh = tbGioiTinh.Text.ToString();
+            bn.NamSinh = Int32.Parse(tbNamSinh.Text.ToString());
+            bn.DiaChi = tbDiaChi.Text.ToString();
+
+            ws.insertBenhNhan(bn);
+        }
         /*
         private void btnOK_Click(object sender, EventArgs e)
         {

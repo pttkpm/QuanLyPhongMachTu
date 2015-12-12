@@ -16,6 +16,44 @@ namespace QLPMT_DAL_WS
     // [System.Web.Script.Services.ScriptService]
     public class QLPMT_DAL_WebService : System.Web.Services.WebService
     {
+        //BaoCao
+        [WebMethod]
+        public void insertBaoCao(BaoCaoDTO info)
+        {
+            BaoCaoDAO ob = new BaoCaoDAO();
+            ob.insert(info);
+        }
+
+        //BaoCaoDoanhThu
+        [WebMethod]
+        public void insertBaoCaoDoanhThu(BaoCaoDoanhThuDTO info)
+        {
+            BaoCaoDoanhThuDAO ob = new BaoCaoDoanhThuDAO();
+            ob.insert(info);
+        }
+
+        //Benh Nhan
+        [WebMethod]
+        public int isExistBenhNhan(BenhNhanDTO info)
+        {
+            BenhNhanDAO ob = new BenhNhanDAO();
+            return ob.isExist(info);
+        }
+
+        [WebMethod]
+        public void insertBenhNhan(BenhNhanDTO info)
+        {
+            BenhNhanDAO ob = new BenhNhanDAO();
+            ob.insert(info);
+        }
+
+        [WebMethod]
+        public void insertChiTietDanhSachKham(ChiTietDanhSachKhamDTO info)
+        {
+            ChiTietDanhSachKhamDAO ob = new ChiTietDanhSachKhamDAO();
+            ob.insert(info);
+        }
+
         //LichHen
         [WebMethod]
         public void insertLichHen(LichHenDTO info)
@@ -48,26 +86,6 @@ namespace QLPMT_DAL_WS
         }
 
 
-        //Benh Nhan
-        [WebMethod]
-        public int isExistBenhNhan(BenhNhanDTO info)
-        {
-            BenhNhanDAO ob = new BenhNhanDAO();
-            return ob.isExist(info);
-        }
-
-        [WebMethod]
-        public void insertBenhNhan(BenhNhanDTO info)
-        {
-            BenhNhanDAO ob = new BenhNhanDAO();
-            ob.insert(info);
-        }
-
-        [WebMethod]
-        public void insertChiTietDanhSachKham(ChiTietDanhSachKhamDTO info)
-        {
-            ChiTietDanhSachKhamDAO ob = new ChiTietDanhSachKhamDAO();
-            ob.insert(info);
-        }
+        
     }
 }

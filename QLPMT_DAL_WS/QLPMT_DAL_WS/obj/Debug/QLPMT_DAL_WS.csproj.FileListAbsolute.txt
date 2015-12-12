@@ -14,3 +14,14 @@ C:\Users\PhanTan\Documents\Visual Studio 2013\Projects\QUANLYPHONGMACHTU\QLPMT_D
 C:\Users\PhanTan\Documents\Visual Studio 2013\Projects\QUANLYPHONGMACHTU\QLPMT_DAL_WS\QLPMT_DAL_WS\obj\Debug\QLPMT_DAL_WS.csprojResolveAssemblyReference.cache
 C:\Users\PhanTan\Documents\Visual Studio 2013\Projects\QUANLYPHONGMACHTU\QLPMT_DAL_WS\QLPMT_DAL_WS\obj\Debug\QLPMT_DAL_WS.dll
 C:\Users\PhanTan\Documents\Visual Studio 2013\Projects\QUANLYPHONGMACHTU\QLPMT_DAL_WS\QLPMT_DAL_WS\obj\Debug\QLPMT_DAL_WS.pdb
+D:\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\obj\Debug\QLPMT_DAL_WS.csprojResolveAssemblyReference.cache
+D:\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\obj\Debug\QLPMT_DAL_WS.dll
+D:\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\obj\Debug\QLPMT_DAL_WS.pdb
+D:\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\bin\QLPMT_DAL_WS.dll
+D:\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\bin\QLPMT_DAL_WS.pdb
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\bin\QLPMT_DAL_WS.dll.config
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\bin\QLPMT_DAL_WS.dll
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\bin\QLPMT_DAL_WS.pdb
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\obj\Debug\QLPMT_DAL_WS.csprojResolveAssemblyReference.cache
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\obj\Debug\QLPMT_DAL_WS.dll
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QLPMT_DAL_WS\QLPMT_DAL_WS\obj\Debug\QLPMT_DAL_WS.pdb

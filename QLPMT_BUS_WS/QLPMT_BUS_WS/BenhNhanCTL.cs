@@ -29,6 +29,7 @@ namespace QLPMT_BUS_WS
                 return;
             else
                 info.MaBenhNhan = Convert.ToString(ws.isExistBenhNhan(info) + 1);
+                //info.MaBenhNhan = "1";
             ws.insertBenhNhan(info);
         }
 

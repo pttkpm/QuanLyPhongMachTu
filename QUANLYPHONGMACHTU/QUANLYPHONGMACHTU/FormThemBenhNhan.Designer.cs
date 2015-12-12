@@ -37,7 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.cbGioiTinh = new System.Windows.Forms.ComboBox();
+            this.tbGioiTinh = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tbDiaChi
@@ -129,21 +129,21 @@
             this.button1.Text = "OK";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // cbGioiTinh
+            // tbGioiTinh
             // 
-            this.cbGioiTinh.FormattingEnabled = true;
-            this.cbGioiTinh.Location = new System.Drawing.Point(285, 70);
-            this.cbGioiTinh.Name = "cbGioiTinh";
-            this.cbGioiTinh.Size = new System.Drawing.Size(148, 25);
-            this.cbGioiTinh.TabIndex = 25;
+            this.tbGioiTinh.Location = new System.Drawing.Point(285, 70);
+            this.tbGioiTinh.Name = "tbGioiTinh";
+            this.tbGioiTinh.Size = new System.Drawing.Size(148, 25);
+            this.tbGioiTinh.TabIndex = 25;
             // 
             // FormThemBenhNhan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 325);
-            this.Controls.Add(this.cbGioiTinh);
+            this.Controls.Add(this.tbGioiTinh);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tbDiaChi);
@@ -173,7 +173,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox cbGioiTinh;
+        private System.Windows.Forms.TextBox tbGioiTinh;
 
     }
 }

@@ -25,7 +25,7 @@ namespace QLPMT_DAL_WS
 
         public LichHenDTO[] getListLichHen(string TenBS, string Ngayhen)
         {
-            string query = string.Format("SELECT * FROM HOCSINH WHERE TenBacSi = '{0}' and NgayHen = '{1}'", TenBS, Ngayhen);
+            string query = string.Format("SELECT * FROM LICHHEN WHERE TenBacSi = '{0}' and NgayHen = '{1}'", TenBS, Ngayhen);
             adapter = new SqlDataAdapter(query, connection);
             DataSet dataset = new DataSet();
             adapter.Fill(dataset);

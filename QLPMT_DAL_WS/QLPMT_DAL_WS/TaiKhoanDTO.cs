@@ -19,16 +19,6 @@ namespace QLPMT_DAL_WS
 
         public string MatKhau { get; set; }
 
-        public virtual TKBacSiDTO TKBACSI { get; set; }
-
-        public virtual TKChuPhongKhamDTO TKCHUPHONGKHAM { get; set; }
-
-        public virtual TKLeTanDTO TKLETAN { get; set; }
-
-        public virtual TKThuKhoDTO TKTHUKHO { get; set; }
-
-        public virtual TKThuNganDTO TKTHUNGAN { get; set; }
-
         //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual DanhMucQuyenDTO[] DANHMUCQUYENs { get; set; }
     }
