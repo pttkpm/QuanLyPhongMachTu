@@ -87,3 +87,9 @@ E:\TKPM\do an\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QU
 E:\TKPM\do an\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormXoaThuoc.resources
 E:\TKPM\do an\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.Properties.Resources.resources
 E:\TKPM\do an\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.csproj.GenerateResource.Cache
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormPhanQuyenNguoiDung.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormTaoTaiKhoan.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormGhiNhanNhapKho.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormGhiNhanXuatKho.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormTraCuuNhapKho.resources
+C:\Users\PhanTan\Documents\GitHub\QuanLyPhongMachTu\QUANLYPHONGMACHTU\QUANLYPHONGMACHTU\obj\Debug\QUANLYPHONGMACHTU.FormTraCuuXuatKho.resources

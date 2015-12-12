@@ -255,6 +255,12 @@
     <EmbeddedResource Include="FormDatLichKham.resx">
       <DependentUpon>FormDatLichKham.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormGhiNhanNhapKho.resx">
+      <DependentUpon>FormGhiNhanNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGhiNhanXuatKho.resx">
+      <DependentUpon>FormGhiNhanXuatKho.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLapDanhSachKham.resx">
       <DependentUpon>FormLapDanhSachKham.cs</DependentUpon>
     </EmbeddedResource>
@@ -303,8 +309,14 @@
     <EmbeddedResource Include="FormTraCuuLichKham.resx">
       <DependentUpon>FormTraCuuLichKham.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormTraCuuNhapKho.resx">
+      <DependentUpon>FormTraCuuNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTraCuuThuoc.resx">
       <DependentUpon>FormTraCuuThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTraCuuXuatKho.resx">
+      <DependentUpon>FormTraCuuXuatKho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormXemDanhSachKham.resx">
       <DependentUpon>FormXemDanhSachKham.cs</DependentUpon>

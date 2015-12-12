@@ -453,6 +453,7 @@
             this.btnKeHoachNhapThuoc.TabIndex = 6;
             this.btnKeHoachNhapThuoc.Text = "Kế hoạch nhập thuốc tháng tiếp theo";
             this.btnKeHoachNhapThuoc.UseVisualStyleBackColor = true;
+            this.btnKeHoachNhapThuoc.Click += new System.EventHandler(this.btnKeHoachNhapThuoc_Click);
             // 
             // btnThongKeThuocBanChay
             // 
@@ -465,6 +466,7 @@
             this.btnThongKeThuocBanChay.Text = "Thống kê thuốc bán chạy";
             this.btnThongKeThuocBanChay.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThongKeThuocBanChay.UseVisualStyleBackColor = true;
+            this.btnThongKeThuocBanChay.Click += new System.EventHandler(this.btnThongKeThuocBanChay_Click);
             // 
             // btnXuHuongKham
             // 
@@ -486,6 +488,7 @@
             this.btnDuDoanXuHuong.TabIndex = 3;
             this.btnDuDoanXuHuong.Text = "Dự đoán xu hướng khám bệnh";
             this.btnDuDoanXuHuong.UseVisualStyleBackColor = true;
+            this.btnDuDoanXuHuong.Click += new System.EventHandler(this.btnDuDoanXuHuong_Click);
             // 
             // groupBox7
             // 
@@ -516,6 +519,7 @@
             this.btnGhiNhanXuatKho.Text = "Ghi nhận xuất kho";
             this.btnGhiNhanXuatKho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnGhiNhanXuatKho.UseVisualStyleBackColor = true;
+            this.btnGhiNhanXuatKho.Click += new System.EventHandler(this.btnGhiNhanXuatKho_Click);
             // 
             // btnGhiNhanNhapKho
             // 
@@ -528,6 +532,7 @@
             this.btnGhiNhanNhapKho.Text = "Ghi nhận nhập kho";
             this.btnGhiNhanNhapKho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnGhiNhanNhapKho.UseVisualStyleBackColor = true;
+            this.btnGhiNhanNhapKho.Click += new System.EventHandler(this.btnGhiNhanNhapKho_Click);
             // 
             // btnTraCuuXuatKho
             // 
@@ -540,6 +545,7 @@
             this.btnTraCuuXuatKho.Text = "Tra cứu xuất kho";
             this.btnTraCuuXuatKho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTraCuuXuatKho.UseVisualStyleBackColor = true;
+            this.btnTraCuuXuatKho.Click += new System.EventHandler(this.btnTraCuuXuatKho_Click);
             // 
             // btnTraCuuNhapKho
             // 
@@ -552,6 +558,7 @@
             this.btnTraCuuNhapKho.Text = "Tra cứu nhập kho";
             this.btnTraCuuNhapKho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTraCuuNhapKho.UseVisualStyleBackColor = true;
+            this.btnTraCuuNhapKho.Click += new System.EventHandler(this.btnTraCuuNhapKho_Click);
             // 
             // Form2
             // 
