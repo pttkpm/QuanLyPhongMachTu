@@ -59,7 +59,7 @@ namespace QLPMT_DAL_WS
             DataTable dt = dataset.Tables[0];
             int res = Convert.ToInt32(dt.Rows[0]["SL"]);
             if (res > 0)
-                return -1;
+                return -10;
             else
             {
                 return countNumberofBenhNhan();

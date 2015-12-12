@@ -23,14 +23,15 @@ namespace QLPMT_BUS_WS
             }
         }
 
-        public void insert()
+        public int insert()
         {
-            if (ws.isExistBenhNhan(info) == -1)
-                return;
+            if (ws.isExistBenhNhan(info) < 0)
+                return 0;
             else
                 info.MaBenhNhan = Convert.ToString(ws.isExistBenhNhan(info) + 1);
-                //info.MaBenhNhan = "1";
+                
             ws.insertBenhNhan(info);
+            return 1;
         }
 
         //public BenhNhanDTO[] getDsBenhNhan()

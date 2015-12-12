@@ -42,11 +42,11 @@ namespace QLPMT_BUS_WS
         }
 
         [WebMethod]
-        public void insertBenhNhan(BenhNhanDTO info)
+        public int insertBenhNhan(BenhNhanDTO info)
         {
             BenhNhanCTL bnCTL = new BenhNhanCTL();
             bnCTL.BenhNhan = info;
-            bnCTL.insert();
+            return bnCTL.insert();
         }
 
         [WebMethod]
