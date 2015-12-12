@@ -28,39 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnOK = new System.Windows.Forms.Button();
             this.lbSoluongBenh = new System.Windows.Forms.Label();
             this.tbSoLuongBenh = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Location = new System.Drawing.Point(186, 150);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 11;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // btnOK
-            // 
-            this.btnOK.Location = new System.Drawing.Point(72, 150);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
-            this.btnOK.TabIndex = 10;
-            this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = true;
             // 
             // lbSoluongBenh
             // 
             this.lbSoluongBenh.AutoSize = true;
-            this.lbSoluongBenh.Location = new System.Drawing.Point(245, 37);
+            this.lbSoluongBenh.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbSoluongBenh.Location = new System.Drawing.Point(312, 37);
             this.lbSoluongBenh.Name = "lbSoluongBenh";
-            this.lbSoluongBenh.Size = new System.Drawing.Size(35, 13);
+            this.lbSoluongBenh.Size = new System.Drawing.Size(52, 18);
             this.lbSoluongBenh.TabIndex = 9;
             this.lbSoluongBenh.Text = "label3";
             // 
@@ -74,34 +56,62 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(69, 82);
+            this.label2.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.Location = new System.Drawing.Point(66, 77);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(163, 13);
+            this.label2.Size = new System.Drawing.Size(223, 17);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Nhập số lượng bệnh nhân tối đa:";
+            this.label2.Text = "Nhập số lượng loại bệnh tối đa:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(66, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 13);
+            this.label1.Size = new System.Drawing.Size(240, 17);
             this.label1.TabIndex = 6;
             this.label1.Text = "Số lượng loại bệnh tối đa hiện tại:";
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Image = global::QUANLYPHONGMACHTU.Properties.Resources.deletered;
+            this.btnCancel.Location = new System.Drawing.Point(227, 171);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(117, 39);
+            this.btnCancel.TabIndex = 18;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCancel.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = global::QUANLYPHONGMACHTU.Properties.Resources.check;
+            this.button1.Location = new System.Drawing.Point(69, 171);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(126, 39);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "OK";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormThayDoiSoLuongBenh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(388, 248);
+            this.ClientSize = new System.Drawing.Size(450, 260);
             this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnOK);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbSoluongBenh);
             this.Controls.Add(this.tbSoLuongBenh);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormThayDoiSoLuongBenh";
-            this.Text = "FormThayDoiSoLuongBenh";
+            this.Text = "Thay đổi số lượng bệnh";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,11 +119,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Label lbSoluongBenh;
         private System.Windows.Forms.TextBox tbSoLuongBenh;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button button1;
     }
 }

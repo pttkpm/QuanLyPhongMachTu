@@ -15,6 +15,7 @@ namespace QUANLYPHONGMACHTU
         public Form2()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -33,6 +34,7 @@ namespace QUANLYPHONGMACHTU
             FormLapDanhSachKham f = new FormLapDanhSachKham();
             f.ShowDialog();
         }
+
 
         private void btnTraCuuLichKham_Click(object sender, EventArgs e)
         {
@@ -135,6 +137,23 @@ namespace QUANLYPHONGMACHTU
 
         }
 
-        
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTaoTaiKhoan_Click(object sender, EventArgs e)
+        {
+            FormTaoTaiKhoan f = new FormTaoTaiKhoan();
+            f.StartPosition = FormStartPosition.CenterScreen;
+            f.ShowDialog();
+        }
+
+        private void btnPhanQuyenNguoiDung_Click(object sender, EventArgs e)
+        {
+            FormPhanQuyenNguoiDung f = new FormPhanQuyenNguoiDung();
+            f.StartPosition = FormStartPosition.CenterScreen;
+            f.ShowDialog();
+        }
     }
 }

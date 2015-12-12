@@ -267,8 +267,14 @@
     <EmbeddedResource Include="FormLapPhieuKhamThemThuoc.resx">
       <DependentUpon>FormLapPhieuKhamThemThuoc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPhanQuyenNguoiDung.resx">
+      <DependentUpon>FormPhanQuyenNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTaoDanhSachKham.resx">
       <DependentUpon>FormTaoDanhSachKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTaoTaiKhoan.resx">
+      <DependentUpon>FormTaoTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormThayDoiDonGiaThuoc.resx">
       <DependentUpon>FormThayDoiDonGiaThuoc.cs</DependentUpon>
@@ -428,6 +434,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\check.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

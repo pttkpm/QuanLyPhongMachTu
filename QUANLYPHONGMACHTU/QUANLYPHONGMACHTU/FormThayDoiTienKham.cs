@@ -21,5 +21,10 @@ namespace QUANLYPHONGMACHTU
         {
             this.Close();
         }
+
+        private void lbTienKham_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

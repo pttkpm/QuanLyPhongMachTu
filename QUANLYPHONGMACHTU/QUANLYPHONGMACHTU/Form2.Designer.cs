@@ -119,6 +119,7 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lễ Tân";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btnThemBenhNhan
             // 
@@ -396,6 +397,7 @@
             this.btnTaoTaiKhoan.Text = "Tạo tài khoản";
             this.btnTaoTaiKhoan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTaoTaiKhoan.UseVisualStyleBackColor = true;
+            this.btnTaoTaiKhoan.Click += new System.EventHandler(this.btnTaoTaiKhoan_Click);
             // 
             // btnPhanQuyenNguoiDung
             // 
@@ -408,6 +410,7 @@
             this.btnPhanQuyenNguoiDung.Text = "Phân quyền người dùng";
             this.btnPhanQuyenNguoiDung.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPhanQuyenNguoiDung.UseVisualStyleBackColor = true;
+            this.btnPhanQuyenNguoiDung.Click += new System.EventHandler(this.btnPhanQuyenNguoiDung_Click);
             // 
             // groupBox6
             // 

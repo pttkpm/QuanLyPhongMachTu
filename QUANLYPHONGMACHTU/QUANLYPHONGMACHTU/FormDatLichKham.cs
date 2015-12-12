@@ -46,5 +46,10 @@ namespace QUANLYPHONGMACHTU
         {
 
         }
+
+        private void FormDatLichKham_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -46,76 +46,83 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(98, 33);
+            this.label1.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.Location = new System.Drawing.Point(58, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 13);
+            this.label1.Size = new System.Drawing.Size(57, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Họ tên:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(156, 33);
+            this.textBox1.Location = new System.Drawing.Point(175, 36);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(151, 20);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(345, 33);
+            this.textBox2.Location = new System.Drawing.Point(175, 78);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(151, 20);
             this.textBox2.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(277, 34);
+            this.label2.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.Location = new System.Drawing.Point(58, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 13);
+            this.label2.Size = new System.Drawing.Size(85, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "Ngày Khám";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(98, 104);
+            this.label3.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label3.Location = new System.Drawing.Point(58, 162);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(86, 17);
             this.label3.TabIndex = 4;
             this.label3.Text = "Tiền khám:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(98, 137);
+            this.label4.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label4.Location = new System.Drawing.Point(58, 206);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 13);
+            this.label4.Size = new System.Drawing.Size(86, 17);
             this.label4.TabIndex = 5;
             this.label4.Text = "Tiền thuốc:";
             // 
             // lbTienKham
             // 
             this.lbTienKham.AutoSize = true;
-            this.lbTienKham.Location = new System.Drawing.Point(174, 104);
+            this.lbTienKham.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbTienKham.Location = new System.Drawing.Point(167, 162);
             this.lbTienKham.Name = "lbTienKham";
-            this.lbTienKham.Size = new System.Drawing.Size(16, 13);
+            this.lbTienKham.Size = new System.Drawing.Size(17, 17);
             this.lbTienKham.TabIndex = 6;
             this.lbTienKham.Text = "...";
             // 
             // lbTienThuoc
             // 
             this.lbTienThuoc.AutoSize = true;
-            this.lbTienThuoc.Location = new System.Drawing.Point(174, 137);
+            this.lbTienThuoc.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbTienThuoc.Location = new System.Drawing.Point(167, 206);
             this.lbTienThuoc.Name = "lbTienThuoc";
-            this.lbTienThuoc.Size = new System.Drawing.Size(16, 13);
+            this.lbTienThuoc.Size = new System.Drawing.Size(17, 17);
             this.lbTienThuoc.TabIndex = 7;
             this.lbTienThuoc.Text = "...";
             // 
             // btnThanhToan
             // 
-            this.btnThanhToan.Location = new System.Drawing.Point(463, 31);
+            this.btnThanhToan.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnThanhToan.Location = new System.Drawing.Point(381, 39);
             this.btnThanhToan.Name = "btnThanhToan";
-            this.btnThanhToan.Size = new System.Drawing.Size(75, 23);
+            this.btnThanhToan.Size = new System.Drawing.Size(125, 33);
             this.btnThanhToan.TabIndex = 8;
             this.btnThanhToan.Text = "Thanh Toán";
             this.btnThanhToan.UseVisualStyleBackColor = true;
@@ -123,18 +130,20 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(101, 173);
+            this.label5.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label5.Location = new System.Drawing.Point(58, 243);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 13);
+            this.label5.Size = new System.Drawing.Size(77, 17);
             this.label5.TabIndex = 9;
             this.label5.Text = "Tổng tiền:";
             // 
             // lbTongTien
             // 
             this.lbTongTien.AutoSize = true;
-            this.lbTongTien.Location = new System.Drawing.Point(174, 173);
+            this.lbTongTien.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbTongTien.Location = new System.Drawing.Point(167, 243);
             this.lbTongTien.Name = "lbTongTien";
-            this.lbTongTien.Size = new System.Drawing.Size(16, 13);
+            this.lbTongTien.Size = new System.Drawing.Size(17, 17);
             this.lbTongTien.TabIndex = 10;
             this.lbTongTien.Text = "...";
             // 
@@ -142,9 +151,10 @@
             // 
             this.radDung.AutoSize = true;
             this.radDung.Checked = true;
-            this.radDung.Location = new System.Drawing.Point(101, 70);
+            this.radDung.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.radDung.Location = new System.Drawing.Point(61, 116);
             this.radDung.Name = "radDung";
-            this.radDung.Size = new System.Drawing.Size(81, 17);
+            this.radDung.Size = new System.Drawing.Size(105, 21);
             this.radDung.TabIndex = 11;
             this.radDung.TabStop = true;
             this.radDung.Text = "Dùng thuốc";
@@ -153,9 +163,10 @@
             // radKhongDung
             // 
             this.radKhongDung.AutoSize = true;
-            this.radKhongDung.Location = new System.Drawing.Point(192, 70);
+            this.radKhongDung.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.radKhongDung.Location = new System.Drawing.Point(198, 116);
             this.radKhongDung.Name = "radKhongDung";
-            this.radKhongDung.Size = new System.Drawing.Size(113, 17);
+            this.radKhongDung.Size = new System.Drawing.Size(151, 21);
             this.radKhongDung.TabIndex = 12;
             this.radKhongDung.Text = "Không dùng thuốc";
             this.radKhongDung.UseVisualStyleBackColor = true;
@@ -164,7 +175,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(590, 235);
+            this.ClientSize = new System.Drawing.Size(589, 291);
             this.Controls.Add(this.radKhongDung);
             this.Controls.Add(this.radDung);
             this.Controls.Add(this.lbTongTien);
@@ -179,7 +190,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "FormLapHoaDonThanhToan";
-            this.Text = "FormLapHoaDonThanhToan";
+            this.Text = "Hóa đơn thanh toán";
             this.ResumeLayout(false);
             this.PerformLayout();
 
