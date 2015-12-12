@@ -219,6 +219,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormDatLichKham";
             this.Text = "Đặt lịch khám";
+            this.Load += new System.EventHandler(this.FormDatLichKham_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -48,7 +48,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(249, 33);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(148, 25);
             this.textBox1.TabIndex = 1;
@@ -56,7 +56,7 @@
             // btnXem
             // 
             this.btnXem.Location = new System.Drawing.Point(422, 31);
-            this.btnXem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXem.Margin = new System.Windows.Forms.Padding(4);
             this.btnXem.Name = "btnXem";
             this.btnXem.Size = new System.Drawing.Size(112, 30);
             this.btnXem.TabIndex = 2;
@@ -67,7 +67,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(60, 86);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(546, 262);
             this.dataGridView1.TabIndex = 3;
@@ -82,7 +82,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormXemDanhSachKham";
             this.Text = "Tra cứu danh sách khám";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
